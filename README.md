@@ -8,17 +8,7 @@ There are 13 entity tags in this task:
 * location
 * education
 * clinical_event
-* familyO	[CLS]
-O	The
-B-ORG	European
-I-ORG	Commission
-O	said
-O	on
-O	Thursday
-O	it
-O	disagreed
-O	with
-B-MISC	German
+* family
 * money
 * profession
 * others
@@ -69,10 +59,10 @@ article_id	start_position	end_position	entity_text	entity_type
 article_id	start_position	end_position	entity_text	entity_type
 0	  198	    200	    新樓	     location
 0	  295	    297	    今年	     time
-1	  31	    32   	今	     time
-1	  40	    42   	昨天	     time
-1	  76	    80	    0.79	 med_exam
-1	  94	    96	    88	     med_exam
+1	  31	    32    	   今	         time
+1	  40	    42   	     昨天	     time
+1	  76	    80	       0.79	     med_exam
+1	  94	    96	    88	       med_exam
 1	  111	    113	    60	     med_exam
 1	  122	    124	    60	     med_exam
 1	  179	    181	    20	     med_exam
@@ -105,3 +95,4 @@ article_id	start_position	end_position	entity_text	entity_type
 
 * [Transformer](https://youtu.be/ugWDIIOHtPA)
 * [ELMO, BERT, GPT2](https://youtu.be/UYPa347-DdE)
+* [Named entity recognition with Bert](https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/)
